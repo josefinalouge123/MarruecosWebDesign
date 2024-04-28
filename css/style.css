@@ -1,0 +1,202 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@600&display=swap');
+
+
+
+/* *{
+margin: 0;
+box-sizing: border-box;
+} */
+
+body {
+
+    font-family:"Montserrat", sans-serif;
+    background-color: #ffffff;
+}
+
+
+
+ header {
+margin: 50px 0; 
+}  
+
+
+main,footer,header {width: 100%;
+   
+    
+}
+
+footer {
+
+background-color: #fe9812;
+height: 200px;
+
+}
+
+section {
+
+    width: 83.33%;
+    margin:0 auto;
+    margin-bottom: 2em;
+}
+
+#secondSection{
+
+    width: 100%;
+    background-color: #ffffff;
+   margin-top:100px;
+  
+}
+
+#secondSection p {
+
+    font-size: 1.81em;
+    font-weight: auto;
+    text-align: right;
+   
+}
+
+.foto {
+    width:100.33%;
+    margin:auto;
+    display: block;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+    
+
+}
+
+#secondSection img {
+    width: 30%; /* Cambiar el valor según lo deseado */
+    margin-right: 50px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+  
+
+}
+
+div { width: 83.33%;
+      margin: 0 auto;
+}
+div div {
+
+    width: 100%;
+    margin:0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+h1, h2{
+color: #fe9812;
+text-transform:uppercase;
+/*we can transform lowercase into
+uppercase case*/
+text-align:center;
+font-family: "Poppins", sans-serif;
+line-height: 120px;
+
+
+}
+
+h1 {
+
+    text-align:center;
+    font-size: 5.75em;
+    margin-bottom: 50px;
+    
+    
+    }
+
+h2 {
+
+text-align:left;
+font-size: 5.75em;
+
+
+}
+
+p,a {
+
+    font-size: 1.81em;
+    font-weight: 300;
+    
+}
+
+.n {
+color: #fe9812;
+}
+
+a {   
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color:#fe9812;
+    border:1px solid;
+    padding: 0.5em 1em;
+    
+   
+ 
+    /*
+
+    if you decide not working with padding so to generate de a button link, and work with width and height:
+       width: 100px;
+    height: 30px;
+    display: block;
+    
+    
+    convert the link into a block
+    element so width and height may be taking for real*/
+   
+    
+
+
+}
+
+
+a:hover {
+background-color:#fe9812;
+color: white;
+
+}
+
+
+
+
+
+h2,p {
+
+    margin-bottom:64px;
+
+}
+
+
+header img {
+
+    width:83.33%;
+    margin:auto;
+    display: block;
+    /*we are transforming the image into a block element
+    so the margin auto , to center it will work*/
+}
+
+
+
+
+@media(max-width: 768px){
+
+
+body {
+
+font-size: 14px;
+
+}
+
+
+
+
+}
